@@ -1,6 +1,6 @@
 {
   "name": "nitro-prometheus-middleware",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is a middleware for nitro, that expose metrics for prometheus.",
   "main": "dist/index.mjs",
   "scripts": {
