@@ -6,8 +6,6 @@ jspm_packages
 nitro.d.ts
 .nitro
 
-package-lock.json
-
 # Logs
 *.log
 
