@@ -1,5 +1,5 @@
-[![](https://img.shields.io/npm/l/nitro-prometheus-middleware)](https://img.shields.io/npm/l/nitro-prometheus-middleware)
-![npm](https://img.shields.io/npm/v/nitro-prometheus-middleware)
+[![](https://img.shields.io/npm/l/nitro-prometheus-middleware)](https://www.npmjs.com/package/nitro-prometheus-middleware)
+[![npm](https://img.shields.io/npm/v/nitro-prometheus-middleware)](https://www.npmjs.com/package/nitro-prometheus-middleware)
 # Nitro Prometheus Middleware
 
 This is a middleware for [nitro](https://github.com/unjs/nitro), that expose metrics for prometheus.
