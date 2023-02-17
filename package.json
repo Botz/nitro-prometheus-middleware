@@ -1,0 +1,22 @@
+{
+  "name": "nitro-prometheus-middleware",
+  "version": "0.0.1",
+  "description": "This is a middleware for nitro, that expose metrics for prometheus.",
+  "main": "dist/index.mjs",
+  "scripts": {
+    "build": "unbuild",
+    "dev": "nitropack dev playground",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "changelogen": "^0.4.1",
+    "nitropack": "^2.2.2",
+    "unbuild": "^1.1.2"
+  },
+  "dependencies": {
+    "h3": "^1.5.0",
+    "prom-client": "^14.1.1"
+  }
+}
