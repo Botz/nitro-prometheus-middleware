@@ -18,7 +18,7 @@ import { defineNitroConfig } from 'nitropack'
 
 export default defineNitroConfig({
   plugins: [
-    'nitro-prometheus-middleware'
+    'node_modules/nitro-prometheus-middleware/dist/index.mjs'
   ]
 })
 ```
