@@ -4,13 +4,15 @@
 
 This is a middleware for [nitro](https://github.com/unjs/nitro), that expose metrics for prometheus.
 
-## 🚀 Usage
+## 🚀 Usage 
 1. Install 
 
 ```sh
 npm install nitro-prometheus-middleware
 ```
 
+
+### Nitro
 2. Add `nitro-prometheus-middleware` to the `plugins` section of `nitro.config.ts`
 
 ```ts
@@ -20,6 +22,20 @@ export default defineNitroConfig({
   plugins: [
     'node_modules/nitro-prometheus-middleware/dist/index.mjs'
   ]
+})
+```
+
+### Nuxt3
+2. Add `nitro-prometheus-middleware` to the `nitro.plugins` section of `nuxt.config.ts`
+```ts
+import { resolve } from 'path';
+
+export default defineNuxtConfig({
+  nitro: {
+    plugins: [
+      resolve('node_modules/nitro-prometheus-middleware/dist/index.mjs')
+    ]
+  }
 })
 ```
 
